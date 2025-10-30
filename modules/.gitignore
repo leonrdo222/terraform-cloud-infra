@@ -1,0 +1,17 @@
+# Terraform files to ignore
+.terraform/
+*.tfstate
+*.tfstate.*
+.terraform.lock.hcl
+crash.log
+override.tf
+override.tf.json
+*_override.tf
+*_override.tf.json
+
+# Local environment files
+*.pem
+*.key
+*.pub
+*.zip
+*.log
